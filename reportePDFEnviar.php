@@ -165,7 +165,7 @@
             </script>';
     } catch (Exception $e) {
         //echo "el mensaje no se pudo enviar. Mailer Error: {$mail->ErrorInfo}";
-        echo '<script language="javascript">alert("El mensaje no se pudo enviar. Mailer Error: {$mail->ErrorInfo}. Posible solucion: si se usa el antivirus Avast, desactivar escudos);</script>';
+        echo '<script language="javascript">alert("El mensaje no se pudo enviar. Mailer Error:'. $mail->ErrorInfo.'Posible solucion: si se usa el antivirus Avast, desactivar escudos);</script>';
         echo '<script type="text/javascript">
             window.close();
             </script>';
