@@ -4,7 +4,10 @@ html {
 
 body {
   height: 100%;
-  background: #e6eff7;
+  /*background: #e6eff7;*/
+  background-image: url(../img/abstract-medical-wallpaper-template-design-53876-61803.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
